@@ -862,7 +862,7 @@ const GalleryPage = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   const galleryImages = [
-  '/images/story1.jpg',
+  '/story1.jpg',
   '/images/story2.jpg',
   '/images/story3.jpg',
   '/images/story4.jpg',
