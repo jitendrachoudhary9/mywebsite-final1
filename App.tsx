@@ -377,7 +377,7 @@ const StoryPage = () => {
       title: 'The First Conversation',
       desc: 'Hours of talking that somehow felt like minutes. A simple conversation became the beginning of something beautiful.',
       icon: <BookOpen size={22} />,
-      image: '/images/story1.jpeg',
+      image: '/images/story1.jpg',
     },
     {
       date: '01 JULY 2022',
@@ -385,7 +385,7 @@ const StoryPage = () => {
       title: 'The First "I Love You"',
       desc: 'Some moments are impossible to forget. This was one of those moments — the first time we said what our hearts were feeling.',
       icon: <Heart size={22} fill="currentColor" />,
-      image: '/images/story2.jpeg',
+      image: '/images/story2.jpg',
     },
     { 
       date: 'OUR FIRST DATE',
@@ -393,7 +393,7 @@ const StoryPage = () => {
       title: 'First Date & First Kiss',
       desc: 'A day filled with nervous smiles, beautiful memories and a moment that made everything feel a little more special.',
       icon: <Camera size={22} />,
-      image: '/images/story3.jpeg',
+      image: '/images/story3.jpg',
     },
     {
       date: 'A SPECIAL MOMENT',
@@ -401,7 +401,15 @@ const StoryPage = () => {
       title: 'When We Knew',
       desc: 'Somewhere along the way, we realized that this was more than just a beautiful moment. We had found something worth holding onto.',
       icon: <Gift size={22} />,
-      image: '/images/story4.jpeg',
+      image: '/images/story4.jpg',
+    },
+     {
+      date: '12-10-2026',
+      number: '05',
+      title: 'Engagement Day',
+      desc: 'Our engagement is not just a ring exchanged between us; it is a promise — to stand by each other in every situation, to understand each other even in silence, to smile together in happiness, and to hold each other closer during difficult times..',
+      icon: <Gift size={22} />,
+      image: '/images/story71.jpg',
     },
     
   ];
@@ -862,12 +870,12 @@ const GalleryPage = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   const galleryImages = [
-  '/story1.jpg',
+  '/images/story1.jpg',
   '/images/story2.jpg',
   '/images/story3.jpg',
   '/images/story4.jpg',
   '/images/story5.jpg',
- 
+  '/images/story6.jpg',
   '/images/story7.jpg',
   '/images/story8.jpg',
   '/images/story9.jpg',
