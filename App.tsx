@@ -377,7 +377,7 @@ const StoryPage = () => {
       title: 'The First Conversation',
       desc: 'Hours of talking that somehow felt like minutes. A simple conversation became the beginning of something beautiful.',
       icon: <BookOpen size={22} />,
-      image: '/images/story1.jpg',
+      image: '/story1.jpg',
     },
     {
       date: '01 JULY 2022',
